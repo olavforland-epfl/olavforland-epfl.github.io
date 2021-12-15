@@ -39,7 +39,7 @@ plugins:
 
 # Include paths
 
-include: [assets, _layouts]
+include: [./assets, ./_layouts]
 
 markdown: kramdown
 
