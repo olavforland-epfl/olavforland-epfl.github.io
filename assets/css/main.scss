@@ -120,23 +120,26 @@ section p {
 .graph_text {
     display: inline-block;
     margin: 5% 5%;
+    
     img {
         float: right;
         width: 55%;
     }
     blockquote {  
-        margin: auto;
+        margin: 0 auto;
         float: left;
         width: 35%;
         quotes: none;
         border-right: 5px solid #800020;
         h3 {
             display: inline-block;
+            vertical-align: middle;
             text-align: center;
             line-height: 5px;
         }
         p {
             display: inline-block;
+            vertical-align: middle;
             text-align: center;
             line-height: 25px;
         }
@@ -167,7 +170,6 @@ section#introduction {
         color: #ffffff;
     }
 }
-
 
 
 section#exploration {
