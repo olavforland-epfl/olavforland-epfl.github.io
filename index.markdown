@@ -5,6 +5,7 @@
 layout: default
 classes: 
     - wide
+permalink: /
 # title: "A (NOT SO) RANDOM WALK DOWN WALLSTREET"
 # excerpt: An investigation into whether media coverage affects the stock price of Apple Inc.
 
@@ -39,7 +40,7 @@ classes:
         Since Steve Jobs' infamous presentation of the first iPhone in 2007, the popularity of Apple products has skyrocketed. Now, everybody has an iPhone. Although this is good news for Apple, we are more interested in who speeks the <b>most</b> about Apple.
     </p>
     <div class="graph_text">
-        <img src="/assets/graphs/most_frequent_speakers_animation.gif">
+        <img src="./assets/graphs/most_frequent_speakers_animation.gif">
         <blockquote>
             <h3>Those who most often mention Apple, are people working at Apple</h3>
             <p>
@@ -55,7 +56,7 @@ classes:
         Apple events are something special. Although Apple doesn't reveil the event date until right before it happens, there is always a certain expactation building in the weeks prior to each event. It's a peculiar phenomenon, espacially considering that the products and release date are known (or more precise: "rumored") weeks, and sometimes even months, in advance.<br><br>The figure illustrates how Apple's media attention builds up towards it's product events, only to fall back towards the baseline again. A normal product launch for Apple causes a 
         <span style="color: #800020">100% increase in attention.</span>
     </p>
-    <img src="/assets/graphs/attention_dist.png">
+    <img src="./assets/graphs/attention_dist.png">
 </section>
 
 <section id="impact">
