@@ -1,0 +1,10 @@
+
+# Navigation on top of screen
+main:
+  - title: "Introduction"
+    url: "#introduction"
+  - title: Exploration
+    url: "#exploration"
+
+
+      
