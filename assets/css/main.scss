@@ -60,9 +60,13 @@ body {
     color: #800020;
 }
 
+
+
 a.site-title {
     color: #000;
 }
+
+
 
 
 // Corresponds to container (i think)
@@ -109,7 +113,7 @@ section h2 {
 section p {
     font-size: 1rem;
     font-family: 'Times New Roman', Times, serif;
-    max-width: 50%; 
+    max-width: 80%; 
     color: rgb(129, 129, 129); 
     position: relative; 
     text-align: center; 
@@ -135,13 +139,15 @@ section p {
             display: inline-block;
             vertical-align: middle;
             text-align: center;
-            line-height: 5px;
+            line-height: 0.5em;
+            margin-bottom: 1em;
         }
         p {
             display: inline-block;
+            margin-top: 1em;
             vertical-align: middle;
             text-align: center;
-            line-height: 25px;
+            line-height: 1em;
         }
     }
 }
@@ -151,10 +157,16 @@ section#header {
     background: url("/assets/images/cover_photo.jpg")
     no-repeat center center/cover;
     h1 {
-        color: #000
+        color: #800020
     }
     p {
-        color: #000
+        background-color: rgba(94, 94, 94, 0.6);
+        color: rgb(255, 250, 250);
+        max-width: 25%;
+        font-weight: italic;
+        font-size: 1.2rem;
+        line-height: 1.5em;
+        margin-top: 2em;
     }
 }
 
@@ -167,8 +179,10 @@ section#introduction {
         color: #ffffff;
     }
     p {
+        max-width: 50%;
         color: #ffffff;
     }
+
 }
 
 
@@ -189,15 +203,16 @@ section#exploration {
 
 section#events {
     h2 {
-        margin-top: 5%;
+        margin-top: 0%;
     }
-    p {
-        max-width: 80%;
-    }
+    
     img {
         max-height: 55%;
         width: auto;
     }
+}
+
+section#sentiment {
 
 }
 

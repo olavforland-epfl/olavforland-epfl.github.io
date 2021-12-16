@@ -44,7 +44,24 @@ permalink: /
         <blockquote>
             <h3>Those who most often mention Apple, are people working at Apple</h3>
             <p>
-                People like Tim Cook (CEO), ... (position) and ... (position) are those who most frequently are mentioned in the media talking about Apple
+                People like Tim Cook (CEO), Steve Jobs (Founder) and Eddy Hue (Senior Vice President) are those who most frequently are mentioned in the media talking about Apple
+            </p>
+        </blockquote>
+    </div>
+</section>
+
+<section id="sentiment">
+    <h2>All publicity is good publicity - at least for Apple</h2>
+    <p>
+        To determine the contents of quotations about Apple, Python comes stacked with useful libraries. NLTK assigns a value between -1 and 1 to each quote, where -1 is absolute negative and 1 is absolute positive. By aggregating over all quotes for each month we can determine the overall attitude towards Apple. This reveils an overwhelming 
+        <span style="color:#800020">positive attidude</span> towards Apple.   
+    </p>
+    <div class="graph_text">
+        <img src="./assets/graphs/monthly_sentiment.png">
+        <blockquote>
+            <h3>The attidude towards Apple is overwhelmingly positive</h3>
+            <p>
+                Very few months land close to zero. Interestingly, the ones which do all appear in 2016. This is the year of the infamous <a href="https://en.wikipedia.org/wiki/Batterygate">Batterygate</a> scandal, where it was reveiled that Apple deliberately slowed down the processors in older iPhone models.
             </p>
         </blockquote>
     </div>
@@ -59,9 +76,6 @@ permalink: /
     <img src="./assets/graphs/attention_dist.png">
 </section>
 
-<section id="impact">
-    <h1>Quantifying their impact</h1>
-</section>
 
 
 <!-- For making pretty quotes -->
