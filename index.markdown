@@ -5,7 +5,7 @@
 layout: default
 classes: 
     - wide
-permalink: /
+#permalink: /
 # title: "A (NOT SO) RANDOM WALK DOWN WALLSTREET"
 # excerpt: An investigation into whether media coverage affects the stock price of Apple Inc.
 
