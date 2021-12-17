@@ -22,13 +22,13 @@ classes:
 
 <section id="introduction">
     <h1>Companies and Media Attention</h1>
-    <h2> Stock prices vary significantly from day to day</h2>
+    <h2> Stock prices vary significantly from day-today</h2>
     <p>
-        Some of these fluctuations are a direct result of physical events affecting the company. However, media attention and its wordings significantly affect people’s choice to buy or sell a stock, thus affecting the stock price as well. just imagine... come with examples. 
+        Some of these fluctuations directly result from physical events affecting the companies. However, media is known to have great influence over how people perceive the world. Therefore, it is plausible that media attention and its wordings  influence people's choice to buy or sell a stock, thus influencing the stock price as well. 
     </p>
     <h2> We want to go beyond the anecdotal </h2>
     <p>
-        Quotebank provides us with tools to investigate media's effect on stock prices on a large scale. Quotebank is a corpus containing nearly 200 million quoations from the english media over the period 2008 - 2020, attributed to their most likely speaker. We have extracted quotes regarding Apple Inc. from the period 2015 - 2020, and aim to quantify the medias impact on Apple's stock price. 
+        Quotebank provides us with tools to investigate media's effect on stock prices on a large scale. Quotebank is a corpus containing nearly 200 million quotations from the English media over the period 2008 - 2020, attributed to their most likely speaker. We have extracted quotes regarding Apple Inc. from 2015 - 2020 and aim to quantify the media's impact on Apple's stock price.
     </p>
 </section>
 
@@ -37,14 +37,14 @@ classes:
     <h1>Who even talks about Apple?</h1>
     <h2>Everybody!</h2>
     <p>
-        Since Steve Jobs' infamous presentation of the first iPhone in 2007, the popularity of Apple products has skyrocketed. Now, everybody has an iPhone. Although this is good news for Apple, we are more interested in who speeks the <b>most</b> about Apple.
+        Since Steve Jobs' infamous presentation of the first iPhone in 2007, the popularity of Apple products has skyrocketed. Now, everybody has an iPhone. Although this is good news for Apple, we are more interested in who speaks the <b>most</b> about Apple.
     </p>
     <div class="graph_text">
         <img src="./assets/graphs/most_frequent_speakers_animation.gif">
         <blockquote>
             <h3>Those who most often mention Apple, are people working at Apple</h3>
             <p>
-                People like Tim Cook (CEO), Steve Jobs (Founder) and Eddy Hue (Senior Vice President) are those who most frequently are mentioned in the media talking about Apple
+                People like Tim Cook (CEO), Steve Jobs (Founder) and Eddy Hue (Senior Vice President) are those who most frequently are mentioned in the media talking about Apple.
             </p>
         </blockquote>
     </div>
@@ -53,8 +53,7 @@ classes:
 <section id="sentiment">
     <h2>All publicity is good publicity - at least for Apple</h2>
     <p>
-        To determine the contents of quotations about Apple, Python comes stacked with useful libraries. NLTK assigns a value between -1 and 1 to each quote, where -1 is absolute negative and 1 is absolute positive. By aggregating over all quotes for each month we can determine the overall attitude towards Apple. This reveils an overwhelming 
-        <span style="color:#800020">positive attidude</span> towards Apple.   
+        To determine the contents of quotations about Apple, Python comes stacked with useful libraries. NLTK assigns a value between -1 and 1 to each quote, where -1 is the absolute negative and 1 is the absolute positive. By aggregating the quotes for each month, we can determine the overall attitude towards Apple. This reveals an overwhelming  <span style="color:#800020">positive attitude</span> towards Apple.
     </p>
     <div class="graph_text">
         <img src="./assets/graphs/monthly_sentiment.png">
@@ -70,8 +69,8 @@ classes:
 <section id="events">
     <h2>How Apple events draw massive media attention</h2>
     <p>
-        Apple events are something special. Although Apple doesn't reveil the event date until right before it happens, there is always a certain expactation building in the weeks prior to each event. It's a peculiar phenomenon, espacially considering that the products and release date are known (or more precise: "rumored") weeks, and sometimes even months, in advance.<br><br>The figure illustrates how Apple's media attention builds up towards it's product events, only to fall back towards the baseline again. A normal product launch for Apple causes a 
-        <span style="color: #800020">100% increase in attention.</span>
+        Apple events are something special. Although Apple doesn't reveal the event date until right before it happens, there is always a certain expectation building in the weeks before each event. It's a peculiar phenomenon, especially considering that the products and release date are known (or more precise: "rumored") weeks, and sometimes even months, in advance. <br><br>
+        The figure illustrates how Apple's media attention builds up towards its product events, only to fall back towards the baseline again. A typical product launch for Apple causes a <span style="color: #800020">100% increase in attention.</span>.
     </p>
     <img src="./assets/graphs/attention_dist.png">
 </section>
@@ -87,7 +86,7 @@ classes:
         </blockquote>
     </div>
     <p>
-        The significant increase in positivity could be due to the fact that people connected to Apple get more exposure in the media during this period. With Apple events drawing huge attention, it is natural for the media houses to give exposure to Apple fans, Apple experts and Apple employees to talk about the products. Such people are more inclined to talk positively about Appple. The following quotation illustrates such statements.
+        The significant increase in positivity could be due to the fact that people connected to Apple get more exposure in the media during this period. With Apple events drawing huge attention, it is natural for the media houses to expose Apple fans, Apple experts and Apple employees to talk about the products. Such people are more inclined to speak positively about Apple. The following quotation illustrates such statements.
     </p>
     <blockquote>
         <h3>It is the most beautiful iPhone we have ever made</h3> ~ Tim Cook during a product launch week
@@ -95,12 +94,28 @@ classes:
 </section>
 
 <section id="stonks">
+    <h2>Considering the Apple stock</h2>
+    <p>
+        As one of the most successful companies in world the Apple stock has skyrocketed the last couple of years. The growth has been exceptional after the <span style="color: #800020">Batterygate scandal</span>. In addition the stock is very <span style="color: #800020">volatile</span>, leading us to beleive that there might be a connection between the media's attitude towards Apple and their stock price. 
+    </p>
+    <img src="assets/images/apple_stonk.png">
+</section>
+
+<section id="stonk_analysis">
+    <h2>Can last months sentiment be this months gold mine?</h2>
+    <p>
+        No. After conducting a Pearson Correlation Test, we found no statistically significant correlation between the previous month's sentiment and the current month's stock price. Our findings are about as helpful as tossing a coin when predicting the development of a stock price.
+    </p>
+    <img src="assets/graphs/stonk_analysis.png">
+</section>
+
+<section id="matthew">
     <h2>Assessing the legitimacy of Matthew McConaughey</h2>
     <blockquote>
         <h3>Nobody, if you're Warren Buffet or Jimmy Buffet, knows if a stock is gonna go up, down, sideways or in f*cking circles</h3> ~ Matthew McConaughey on stock analysts, from the movie The Wolf of Wall Street
     </blockquote>
     <p>
-        The unforgettable quote of a senior broker at Wall Street in the late '80s. Maybe times were different then - maybe not. We will at least try to tackle the problem of stock prediction by searching for correlation between the change in sentiment before and after Apple has launched a new product. 
+        The unforgettable quote of a senior broker at Wall Street in the late '80s. Maybe times were different then - maybe not. From the previous page it looks to be true - at least in our case. However, we have one more trick up our sleeve. In a desparate attempt at getting some groundbreaking results, we will search for correlation between the change in sentiment before and after Apple launches a new product. 
     </p>
     <div class="graph_text">
         <img src="./assets/graphs/stocks_and_attention.png">
@@ -112,6 +127,15 @@ classes:
         </blockquote>
     </div>
 </section>
+
+<section id="conclusion">
+    <h1>A (very much so) RANDOM WALK STRAIGHT INTO A WALL</h1>
+    <p> 
+        Our attempted walk down Wall Street ends abruptly in a stone wall. From our perspective the market seems detached from reality - at least the reality of the media. Although this wasn't the result we needed, we're pretty certain that it is the result we deserve. <br><br>
+        Albeit our hopes of solving the market have diminished, there are tought proviking correlaries from our investigation. From the analysis conducted, there are strong indicators that the price of <span style="color: #800020">the Apple stock is independant from how the media mentions the company</span>. Considering how much attention <span style="color: #800020">fake news</span> has gotten over the past years, maybe it's a good thing that potential biased sources doesn't effect such a cricial concept as the practical value of a company.
+    </p>
+</section>
+
 <!-- Adding this line to try to get rendered -->
 <!-- <section id="conclusion">
 </section> -->
