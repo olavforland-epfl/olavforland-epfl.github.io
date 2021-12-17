@@ -203,7 +203,7 @@ section#exploration {
 
 section#events {
     h2 {
-        margin-top: 0%;
+        margin-top: 2.5%;
     }
     
     img {
@@ -212,8 +212,17 @@ section#events {
     }
 }
 
-section#sentiment {
-
+section#response {
+    .graph_text {
+        height: 80%;
+        margin-bottom: 0;
+        // img {
+        //     width: 40%;
+        // }
+        // blockquote {
+        //     width: 25%;
+        // }
+    }
 }
 
 // Formating of quotes
@@ -221,7 +230,8 @@ section#sentiment {
 section blockquote {
     border:none;
     font-family:Georgia, "Times New Roman", Times, serif;
-    margin-bottom:-30px;
+    margin-top: 0;
+    margin-bottom: 1em;
     quotes: "\201C""\201D""\2018""\2019";
     h3 {
         font-size:21px;
