@@ -286,6 +286,57 @@ section#conclusion {
         margin-bottom: 5%;
     }
 }
+
+section#about {
+    color: white;
+    background-image: linear-gradient(rgb(129, 129, 129), black);
+    h1 {
+        margin-bottom: 5%;
+        color: white;
+    }
+    p {
+        color: white;
+    }
+    h2 {
+        color: silver;
+        margin-top: 5%;
+    }   
+    h4 {
+        color: silver;
+        margin-top: 0%;
+        margin-bottom: 5%;
+    }
+    .row {
+        height: auto;
+    }
+}
+
+
+.card {
+    display: inline-block;
+    position: bottom
+    h2 {
+        font-size: 20px;
+        display: inline-flex;
+        flex-direction: column;
+        margin: 10px 35px;
+    }
+    h2 > span {
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    span:after, span:before {
+      content: '';
+      background: white;
+      height: 1px;
+      flex: 0 0 60%;
+      margin: 0 10px;
+    }
+}
+
+
 // Formating of quotes
 
 section blockquote {
